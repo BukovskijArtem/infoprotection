@@ -198,10 +198,10 @@ export default {
   },
   computed: {
     optionsSubdivision () {
-      return this.$store.getters['Directory/SUBDIVISION']
+      return this.$store.getters['subdivision/SUBDIVISION']
     },
     optionsPosition () {
-      return this.$store.getters['Directory/POSITION']
+      return this.$store.getters['position/POSITION']
     },
     tableData () {
       let copy = JSON.parse(JSON.stringify(this.$store.getters['users/TABLE_DATA']))
