@@ -4,6 +4,7 @@
 
 ## Build Setup
 npm install
+npm install -g json-server
 ## Start project
 npm run dev
 ## and
